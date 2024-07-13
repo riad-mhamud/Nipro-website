@@ -1,0 +1,258 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+   
+   .logo {
+      max-width: 70%;
+  }
+  .header {
+   padding: 8px 0;
+}
+   .menu ul li {
+      padding: 5px 0 0!important; 
+      text-align: right;
+  }
+  /* header end  */
+
+  /* carsoul start  */
+  .carsoul_content {
+   margin: 117px 12px;
+}
+
+.carsoul_content h1 {
+   font-size: 22px;
+}
+
+.carsoul_content p {
+   margin: 30px 0;
+   line-height: 24px;
+}
+
+.C_btn a {
+   width: 160px !important;
+   padding: 15px 10px;
+   font-size: 16px;
+}
+  /* carsoul end  */
+
+  
+ /* welcome start  */
+ .h1_common_style {
+   margin-bottom: 20px;
+   font-size: 25px;
+  
+}
+.p_common_style {
+line-height: 24px;
+}
+
+
+/* welcome end  */
+
+.service2_content h2 {
+   margin: 25px 0 20px 0;
+  
+}
+.service2_content {
+padding: 0px 33px;
+}
+
+ /* sevice start  */
+ .service2_content h2 {
+   margin: 40px 0 30px 0;
+     
+  }
+  .service2_content {
+   padding: 0px 33px;
+}
+
+/* service end  */
+
+/* about start  */
+.about_image_wrap {
+   padding: 0px 5px;
+}
+.about_text{
+   margin-top: 30px;
+   text-align: center;
+}
+/* about end */
+
+
+  
+
+}
+
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+   /* header start  */
+   .menu ul li {
+      padding: 10px 0 0!important; 
+      text-align: right;
+  }
+
+  /* header end  */
+/* carsoul start  */
+.carsoul_content {
+   margin: 117px 12px;
+}
+
+.carsoul_content h1 {
+   font-size: 40px;
+}
+
+.carsoul_content p {
+   margin: 30px 0;
+}
+
+.C_btn a {
+   width: 170px !important;
+   padding: 15px 14px;
+   font-size: 18px;
+}
+
+/* carsoul  end  */
+
+ /* welcome start  */
+ .h1_common_style {
+   margin-bottom: 20px;
+   font-size: 30px;
+  
+}
+.p_common_style {
+line-height: 24px;
+}
+
+
+/* welcome end  */
+
+.service2_content h2 {
+   margin: 40px 0 30px 0;
+  
+}
+.service2_content {
+padding: 0px 33px;
+}
+
+    /* sevice start  */
+    .service2_content h2 {
+      margin: 40px 0 30px 0;
+     
+  }
+  .service2_content {
+   padding: 0px 33px;
+}
+
+/* service end  */
+
+/* about start  */
+.about_image_wrap {
+   padding: 0px 40px;
+}
+.about_text{
+   margin-top: 30px;
+   text-align: center;
+}
+/* about end */
+
+
+
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+   /* header start  */
+      .menu ul li {
+        padding:  10px 0 0 !important;
+        text-align: right;
+       }
+
+
+       /* welcome start  */
+       .h1_common_style {
+         margin-bottom: 30px;
+         font-size: 30px;
+        
+     }
+     .p_common_style {
+      line-height: 24px;
+  }
+
+
+     /* welcome end  */
+
+     /* sevice start  */
+     .service2_content h2 {
+      margin: 40px 0 30px 0;
+     
+  }
+  .service2_content {
+   padding: 0px 33px;
+}
+
+
+
+
+/* service end  */
+
+/* about start  */
+.about_image_wrap {
+   padding: 0px 115px;
+}
+.about_text{
+   margin-top: 30px;
+   text-align: center;
+}
+/* about end */
+
+
+ /* choose start  */
+ .choose_content {
+   margin-top: 30px;
+}
+
+.choose_p {
+   line-height: 24px;
+   margin: 35px 0 23px 0;
+}
+ /* choose end */
+
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+   /* about start  */
+   .about_image{
+      height: 350px;
+   }
+   .p_common_style {
+      line-height: 22px;
+  }
+  .about_button {
+   margin-top: 5px;
+   
+}
+.h1_common_style {
+   margin-bottom: 16px;
+}
+.C_btn a {
+   width: 152px !important;
+   height: 50px !important;
+   padding: 11px 12px;
+}
+   /* about end */
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) { 
+
+}
+
+/* extra extra large device */
+@media (min-width: 1200px) { 
+
+}

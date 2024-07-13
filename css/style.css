@@ -1,0 +1,265 @@
+/* font link start  */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Roboto:wght@400;500&display=swap');
+/* font link end */
+
+/* variable start  */
+:root{
+    --Lato:"Lato", sans-serif;
+    --rob: "Roboto", sans-serif;
+
+    --black: #000000;
+    --ash: #8e8e8e;
+      
+
+}
+/* variable end */
+
+
+
+/* common stat  */
+body{
+    font-size: 16px;
+    font-family: var(--rob);
+    color: var(--ash);
+}
+
+
+/* common end */
+
+/* header start */
+.header{
+    padding: 20px 0;
+    background-color:white;
+}
+.m_nav{}
+.logo{}
+.menu{}
+.menu ul{}
+.menu ul li{}
+
+.menu ul li {
+    padding: 0px 15px !important;
+    font-family: var(--Lato);
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--ash) !important;
+    text-transform: uppercase;
+    
+}
+.menu ul li:last-child i{
+    padding-right: 0 !important;
+    font-size: 16px;
+}
+.menu ul li a:hover{
+    font-weight: 700;
+}
+
+.carsoul_btn{
+    
+}
+
+.custom_carsoul_btn_pre{
+    left: 0px;
+    top: 506px;
+    font-family: var(--rob);
+    color: black !important;
+    text-transform: uppercase;
+
+    
+}
+
+.custom_carsoul_btn_next {
+    left: 70px;
+    top: 506px;
+    font-family: var(--rob);
+    color: black !important;
+    text-transform: uppercase;
+
+    
+}
+/* header end */
+
+
+/* slider start  */
+
+.slider{
+    width: 100%;
+    max-height: 720px;
+    background-image: url(../image/slider-image.jpg);
+    background-repeat: none;
+    background-size: cover;
+    background-position: center;
+}
+
+.slide_content{
+    margin: 200px 0;
+    justify-items: right;
+}
+.carsoul_content{
+    margin: 200px 10px;
+}
+.carsoul_content h1{
+    font-family: var(--Lato);
+    font-size: 55px;
+    font-weight: 700;
+    color: white;
+}
+.carsoul_content p{
+    margin: 36px 0;
+    font-family: var(--rob);
+    font-weight: 400;
+    line-height: 30px;
+    color: white;
+}
+
+.C_btn a{
+    width: 180px!important;
+    height: 55px !important;
+    padding: 15px 25px;
+    font-family: var(--rob);
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none !important;
+    text-transform: uppercase;
+    border: none;
+    background-color: white;
+    color: var(--black);
+}
+.C_btn a i{
+    margin-top: 2px;
+    margin-left: 10px;
+
+}
+
+.C_btn:hover{
+    font-weight: 500!important;
+}
+
+
+
+/* slider end  */
+  
+
+/* service start  */
+.Service{}
+.Service_title{}
+.h1_common_style{
+    margin-bottom: 30px;
+    font-family: var(--Lato);
+    font-size: 30px;
+    text-transform: uppercase;
+    color: var(--black);
+}
+.p_common_style{
+    line-height: 30px;
+}
+.c_padding{
+    padding: 70px 0;
+}
+
+ /* row 2 start  */
+ .service2_content{
+    margin-top:30px ;
+    padding: 15px;
+    border: 1px solid var(--ash);
+ }
+ .service2_content h2{
+    margin: 70px 0 30px 0;
+    color: var(--black);
+    text-transform: uppercase;
+ }
+ .service2_content p:hover{
+    color:var(--black)
+ }
+ .scard_btn {
+    margin: 25px 0;
+   
+ }
+ .scard_btn:hover{
+    color: var(--ash);
+ }
+ /* row 2 end */
+
+/* service end */
+
+
+/* about start  */
+.about
+.about_text{
+    margin-top: 30px;
+}
+.about_image{
+}
+.about_button{
+    margin-top: 30px;
+    border: 1px solid black !important;
+    background-color: white;
+
+}
+/* about end */
+.hel{
+    border: 1px solid black;
+}
+
+
+
+/* choose start  */
+.choose_content{
+    border-bottom: 2px solid var(--ash);
+    margin-top: 40px;
+}
+.choose_content:hover{
+    border-bottom: 2px solid var(--black);
+    color: var(--black);
+}
+.choose_content h2{
+    font-family: var(--Lato);
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+/* .choose_content h2:hover{
+    color: var(--black);
+} */
+
+.choose_p{
+    line-height: 27px;
+    margin: 45px 0 30px 0;
+
+}
+/* choose end */
+
+/* contact us start  */
+.contact{
+    padding: 50px 0;
+}
+.contact_box{
+   border: 1px solid var(--black);
+}
+.contact_title{
+    text-align: center;
+}
+.custom_formcontrol{
+    padding: 0px 0 0px 25px;
+    margin-top: 20px;
+    height: 65px;
+    border: none;
+    border-bottom: 1px solid var(--ash);
+    font-family: var(--Lato);
+    color: var(--ash);
+}
+
+.form_button{
+    width: 20opx;
+    height: 55px;
+    margin-top: 25px;
+     border: 1px solid var(--ash) !important; 
+    text-align: center !important;
+    
+}
+.contact_button{
+    margin: 30px 0;
+    text-align: center;
+}
+/* contact us end */
+
